@@ -1,0 +1,14 @@
+{
+    "name": "Bookmarks Count",
+    "version": "1.0",
+    "description": "Bookmarks Count",
+    "permissions": [
+        "bookmarks",
+        "storage"
+    ],
+    "background": { "scripts": ["background.js"] },
+    "browser_action": {
+        "default_title": "My Bookmarks"
+    },
+    "manifest_version": 2
+}
